@@ -39,20 +39,20 @@ nav img {
     width: 100%;
 }
 
-h1 {
+h3 {
     color: red;
 }
 
 /* TABLET */
 @media screen and (min-width=769px) and (max-width=992px) {
-    h1 {
+    h3 {
         color: green;
     }
 }
 
 /* MOBILE */
 @media screen and (max-width=768px) {
-    h1 {
+    h3 {
         color: blue;
     }
 }
