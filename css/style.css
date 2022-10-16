@@ -10,6 +10,10 @@ h3 {
 }
 p {
     font-size: 14px;
+    line-height:0px;
+}
+h5 {
+    line-height:0px;
 }
 nav {
     display: flex;
@@ -45,8 +49,10 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
-
 /*SEARCH BAR*/
+.search-bar-container {
+    padding:10px 0px;
+}
 .fa-location-dot {
     background-color: #f2f2f2;
     display: inline-block;
@@ -81,6 +87,65 @@ form.location-search input[type=text] {
     border-bottom-right-radius:15px;
     position:relative;
     left:-20px;
+}
+/*FILTER BUTTONS*/
+/*Why did my filter buttons stretch vertically when I added flex?*/
+.buttons-container {
+    display:flex;
+    flex-direction:row;
+    gap:25px;
+    padding:20px 0px;
+    flex-wrap:wrap;
+}
+#filter-text {
+    display:inline-block;
+}
+.button {
+    display:inline-block;
+    padding:0px 10px 0px 0px;
+    width:auto;
+    text-align:left;
+    color:#000000;
+    background-color:#ffffff;
+    border:solid;
+    border-color:#f2f2f2;
+    border-radius:90px;
+}
+.button-title {
+    font-size:15px;
+    font-weight:700;
+}
+.fa-money-bill-wave {
+    color:#0065FC;
+    background-color:#deebff;
+    border-radius:90px;
+    padding:15px;
+    margin:-3px 10px -3px -3px;
+    height:100%;
+}
+.fa-child-reaching {
+    color:#0065FC;
+    background-color:#deebff;
+    border-radius:90px;
+    padding:15px;
+    margin:-3px 10px -3px -3px;
+    height:100%;
+}
+.fa-heart {
+    color:#0065FC;
+    background-color:#deebff;
+    border-radius:90px;
+    padding:15px;
+    margin:-3px 10px -3px -3px;
+    height:100%;
+}
+.fa-dog {
+    color:#0065FC;
+    background-color:#deebff;
+    border-radius:90px;
+    padding:15px;
+    margin:-3px 10px -3px -3px;
+    height:100%;
 }
 
 /*MEDIA QUERY TEST*/

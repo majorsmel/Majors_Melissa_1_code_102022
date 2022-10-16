@@ -30,6 +30,7 @@
         <div class="header-text">
             <div>
                 <h3>Find a place for your dream vacation</h3>
+                <!--Best way to adjust spacing between text? Currently using line-height in CSS-->
                 <p>Downtown or in nature</p>
             </div>
             <div class="search-bar-container">
@@ -40,12 +41,27 @@
                 </form>
             </div>
         </div>
-        <div class="buttons">
-            <span><h4>Filters</h4></span>
-            <button><i class="fa-solid fa-money-bill-wave"></i>Low cost</button>
-            <button><i class="fa-solid fa-child-reaching"></i>Family-friendly</button>
-            <button><i class="fa-solid fa-heart"></i>Romantic</button>
-            <button><i class="fa-solid fa-dog"></i>Pets allowed</button>
+        <!--FILTER BUTTONS-->
+        <div class="buttons-container">
+            <span id="filter-text">
+                <h4>Filters</h4>
+            </span>
+            <button class="button">
+                <i class="fa-solid fa-money-bill-wave"></i>
+                <span class="button-title">Low cost</span>
+            </button>
+            <button class="button">
+                <i class="fa-solid fa-child-reaching"></i>
+                <span class="button-title">Family-friendly</span>
+            </button>
+            <button class="button">
+                <i class="fa-solid fa-heart"></i>
+                <span class="button-title">Romantic</span>
+            </button>
+            <button class="button">
+                <i class="fa-solid fa-dog"></i>
+                <span class="button-title">Pets allowed</span>
+            </button>
         </div>
         <div>
             <i></i>
