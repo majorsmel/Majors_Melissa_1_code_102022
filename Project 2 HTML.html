@@ -5,7 +5,8 @@
     <!--GENERAL INFO-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"></script>
+    <!--Replaced the fontawesome cdn with a kit and icons began to show up. What's the story here?-->
+    <script src="https://kit.fontawesome.com/0052b681fc.js" crossorigin="anonymous"></script>
     <title>Insert Title Here</title>
 
     <!--LINKS TO CSS STYLESHEETS & GOOGLE FONT-->
@@ -32,17 +33,18 @@
                 <p>Downtown or in nature</p>
             </div>
             <div>
-                <i></i>
+                <!--explore why this icon doesn't work-->
+                <i class="fa-solid fa-location-dot"></i>
                 <input type="text" placeholder="Marseille, France">
                 <button>Search</button>
             </div>
         </div>
         <div class="buttons">
             <span><h4>Filters</h4></span>
-            <button><i>Low Cost</i></button>
-            <button><i>Family-friendly</i></button>
-            <button><i>Romantic</i></button>
-            <button><i>Pets allowed</i></button>
+            <button><i class="fa-solid fa-money-bill-wave"></i>Low cost</button>
+            <button><i class="fa-solid fa-child-reaching"></i>Family-friendly</button>
+            <button><i class="fa-solid fa-heart"></i>Romantic</button>
+            <button><i class="fa-solid fa-dog"></i>Pets allowed</button>
         </div>
         <div>
             <i></i>
@@ -58,67 +60,109 @@
             <div><h3>Accomodations in Marseille</h3></div>
             <div class="room-container"></div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Auberge la Canebière</h5></div>
+                        <div><p>Night starting at <strong>25€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#F2F2F2"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Hôtel du port</h5></div>
+                        <div><p>Night starting at <strong>52€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Les mouettes hotel</h5></div>
+                        <div><p>Night starting at <strong>76€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#F2F2F2"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Hôtel de la mer</h5></div>
+                        <div><p>Night starting at <strong>46€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#F2F2F2"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#F2F2F2"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Auberge Le Panier</h5></div>
+                        <div><p>Night starting at <strong>23€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#F2F2F2"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Hôtel chez Amina</h5></div>
+                        <div><p>Night starting at <strong>96€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                        </div>
                     </div>
                 </div>
             <div class="show-more">
-                <a href="#">Show more</a>
+                <a href="#"><h4>Show more</h4></a>
             </div>
         </div>
 
@@ -126,38 +170,60 @@
         <div class="most-popular">
             <div>
                 <h3>Most Popular</h3>
-                <i></i>
+                <i class="fa-solid fa-star"></i>
             </div>
             <div class="most-popular-rooms-container"></div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Morning Sun Hotel</h5></div>
+                        <div><p>Night starting at <strong>128€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div><h5>Au coeur de l'eau Bed and Breakfast</h5></div>
+                        <div><p>Night starting at <strong>71€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#F2F2F2"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="room-card">
+                    <a href="#"></a>
                     <div class="room-card-image">
                         <img src="" alt="">
                     </div>
                     <div class="room-information">
-                        <div>name</div>
-                        <div>price</div>
-                        <div>stars</div>
+                        <div>Tout bleu et Blanc Hotel</div>
+                        <div><p>Night starting at <strong>68€</strong></p></div>
+                        <div>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#0065FC"></i>
+                            <i class="fa-solid fa-star" style="font-size: 12px; color:#F2F2F2"></i>
+                        </div>
                     </div>
+                </div>
             </div>
         </div>
 
@@ -169,64 +235,70 @@
             <div>
                 <div>
                     <div class="activity-card">
+                        <a href="#"></a>
                         <div class="activity-image">
                             <img="" src="" alt="">
                         </div>
                         <div>
-                            <h5>title</h5>
+                            <h5>Old Port</h5>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div>
                         <div class="activity-card">
+                            <a href="#"></a>
                             <div class="activity-image">
                                 <img="" src="" alt="">
                             </div>
                             <div>
-                                <h5>title</h5>
+                                <h5>Pomègues Fort</h5>
                             </div>
                         </div> 
                     </div>
                     <div>
                         <div class="activity-card">
+                            <a href="#"></a>
                             <div class="activity-image">
                                 <img="" src="" alt="">
                             </div>
                             <div>
-                                <h5>title</h5>
+                                <h5>Frioul Island</h5>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div class="activity-card">
+                        <a href="#"></a>
                         <div class="activity-image">
                             <img="" src="" alt="">
                         </div>
                         <div>
-                            <h5>title</h5>
+                            <h5>Calanques National Park</h5>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div>
                         <div class="activity-card">
+                            <a href="#"></a>
                             <div class="activity-image">
                                 <img="" src="" alt="">
                             </div>
                             <div>
-                                <h5>title</h5>
+                                <h5>Notre-Dame-de-la-Garde</h5>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div class="activity-card">
+                            <a href="#"></a>
                             <div class="activity-image">
                                 <img="" src="" alt="">
                             </div>
                             <div>
-                                <h5>title</h5>
+                                <h5>Longchamp Park</h5>
                             </div>
                         </div>
                     </div>
@@ -241,23 +313,23 @@
             <div>
                 <h4>About</h4>
                 <ul>
-                    <li>Site Map</li>
-                    <li>General Terms and Conditions</li>
-                    <li>Data and Privacy</li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">General Terms and Conditions</a></li>
+                    <li><a href="#">Data and Privacy</a></li>
                 </ul>
             </div>
             <div>
-                <h5>Our Accommodations</h5>
+                <h4>Our Accommodations</h4>
                 <ul>
-                    <li>Quality Assessment</li>
-                    <li>You have a hotel?</li>
+                    <li><a href="#">Quality Assessment</a></li>
+                    <li><a href="#">You have a hotel?</a></li>
                 </ul>
             </div>
             <div>
-                <h5>Assistance</h5>
+                <h4>Assistance</h4>
                 <ul>
-                    <li>Help Desk</li>
-                    <li>Contact Us</li>
+                    <li><a href="#">Help Desk</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
         </div>
