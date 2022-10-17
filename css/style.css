@@ -10,14 +10,15 @@ a:link {
 }
 h3 {
     color: #000000;
-}
-p {
-    font-size: 14px;
-    line-height:0px;
+    font-size:22px;
 }
 h5 {
     line-height:0px;
     font-size:14px;
+}
+p {
+    font-size: 14px;
+    line-height:0px;
 }
 nav {
     display: flex;
@@ -97,13 +98,13 @@ form.location-search input[type=text] {
 /*.buttons-container {
     display:flex;
     flex-direction:row;
-    gap:25px;
-    padding:20px 0px;
     flex-wrap:wrap;
+    gap: 30px;
 }*/
 #filter-text {
     display:inline-block;
 }
+/*may want to rebuild with flex after looking at milestones*/
 .button {
     display:inline-block;
     padding:0px 10px 0px 0px;
@@ -118,6 +119,9 @@ form.location-search input[type=text] {
 .button-title {
     font-size:15px;
     font-weight:700;
+}
+.button-title:hover {
+    color:#0065FC;
 }
 .fa-money-bill-wave {
     color:#0065FC;
@@ -194,6 +198,7 @@ form.location-search input[type=text] {
     flex-wrap:wrap;
     flex-direction:row;
     justify-content:space-around;
+    align-content:center;
     gap:30px;
 }
 .room-card {
@@ -203,6 +208,9 @@ form.location-search input[type=text] {
     padding: 5px;
     border-radius:20px;
     box-shadow:1px 8px 16px 1px rgba(0,0,0,0.1);
+}
+.room-card:hover {
+    color:#0065FC;
 }
 .room-card img {
     object-fit:cover;
@@ -226,12 +234,50 @@ form.location-search input[type=text] {
 
 /*MOST POPULAR TILES*/
 .most-popular-container {
-    height:600px;
+    height:625px;
     width:30%;
     margin:0% 0% 0% 2%;
     background-color:#f2f2f2;
     border-radius:20px;
     padding: 30px;
+}
+.most-popular-rooms-container {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-content:center;
+    gap:30px;
+}
+.room-card-popular {
+    background-color:#ffffff;
+    width:340px;
+    height:145px;
+    padding: 5px;
+    border-radius:20px;
+    box-shadow:1px 8px 16px 1px rgba(0,0,0,0.1);
+}
+.room-card-image-popular {
+    display:inline;
+}
+.room-card-image-popular img{
+    display:inline;
+    float:left;
+    object-fit:cover;
+    width:135px;
+    height:100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin:0px 15px 0px 0px;
+}
+.room-information-popular {
+    display:inline;
+}
+.h5-popular {
+    padding:0px 0px 20px 0px;
+}
+.p-popular {
+    padding:0px 0px 20px 0px;
 }
 
 /*MEDIA QUERY TEST*/
