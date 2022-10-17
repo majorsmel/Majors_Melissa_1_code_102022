@@ -5,6 +5,9 @@
 body {
     padding: 2% 4%;
 }
+a:link {
+    text-decoration:none;
+}
 h3 {
     color: #000000;
 }
@@ -90,13 +93,13 @@ form.location-search input[type=text] {
 }
 /*FILTER BUTTONS*/
 /*Why did my filter buttons stretch vertically when I added flex?*/
-.buttons-container {
+/*.buttons-container {
     display:flex;
     flex-direction:row;
     gap:25px;
     padding:20px 0px;
     flex-wrap:wrap;
-}
+}*/
 #filter-text {
     display:inline-block;
 }
@@ -146,6 +149,72 @@ form.location-search input[type=text] {
     padding:15px;
     margin:-3px 10px -3px -3px;
     height:100%;
+}
+#more-info-text {
+    margin:10px 0px;
+}
+.fa-info {
+    display:inline-block;
+    color:#0065FC;
+    background-color:#ffffff;
+    padding:10px 10px;
+    border:solid;
+    border-color:#f2f2f2;
+    border-radius:90px;
+}
+#info-text {
+    display:inline-block;
+}
+
+/*ACCOMMODATIONS*/
+.accomodations-popular-container {
+    margin:20px 0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:30px;
+}
+
+/*ACCOMMODATION TILES*/
+.accommodations-container {
+    height:600px;
+    width:70%;
+    margin:10px 0px;
+    background-color:#f2f2f2;
+    border-radius:20px;
+    padding:10px;
+}
+.marseille-title {
+    margin:20px;
+    text-align:left;
+    display:inline-block;
+}
+.room-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:30px;
+}
+.room-card {
+    background-color:#ffffff;
+    width:250px;
+    height:200px;
+    padding:15px;
+    border-radius:20px;
+}
+#show-more-text {
+    margin:30px 20px;
+}
+
+/*MOST POPULAR TILES*/
+.most-popular-container {
+    height:600px;
+    width:30%;
+    margin:10px 0px;
+    background-color:#f2f2f2;
+    border-radius:20px;
+    padding:10px;
 }
 
 /*MEDIA QUERY TEST*/
