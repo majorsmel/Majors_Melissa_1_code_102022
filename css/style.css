@@ -300,8 +300,57 @@ form.location-search input[type=text] {
 }
 
 /*ACTIVITY TILES*/
-
-
+.activities-container {
+    margin:4% 0%;
+}
+.activity-tile-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-content:center;
+    gap:30px;
+}
+.activity-card-small-container {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-content:center;
+}
+.activity-card-medium {
+    background-color:#ffffff;
+    width:325px;
+    height:475px;
+    margin:2% 0%;
+    border-radius:20px;
+    box-shadow:1px 8px 16px 1px rgba(0,0,0,0.1);
+}
+.activity-image-md {
+    object-fit:cover;
+    height:415px;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.activity-card-small {
+    background-color:#ffffff;
+    width:315px;
+    height:215px;
+    margin:1% 0%;
+    border-radius:20px;
+    box-shadow:1px 8px 16px 1px rgba(0,0,0,0.1);
+}
+.activity-image-sm {
+    object-fit:cover;
+    height:155px;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;   
+}
+.activity-title {
+    padding:2% 5%;
+}
 /*MEDIA QUERY TEST*/
 
 /* TABLET */
