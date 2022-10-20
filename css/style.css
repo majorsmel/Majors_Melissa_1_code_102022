@@ -13,6 +13,9 @@ h3 {
     font-size:22px;
     margin-bottom:5px;
 }
+h4 {
+    font-size:18px;
+}
 h5 {
     font-size:15px;
     margin:12px 0px 5px 0px;
@@ -94,8 +97,6 @@ form.location-search input[type=text] {
     position:relative;
     left:-20px;
 }
-/*FILTER BUTTONS*/
-/*Why did my filter buttons stretch vertically when I added flex?*/
 .buttons-container {
     display:flex;
     flex-direction:row;
@@ -105,23 +106,27 @@ form.location-search input[type=text] {
 }
 #filter-text {
     display:inline-block;
-    margin:14px 0px;
+    margin:0px;
+    padding-top:10px;
 }
-/*may want to rebuild with flex after looking at milestones*/
 .button {
-    display:inline-block;
-    padding:0px 10px 0px 0px;
-    width:auto;
-    text-align:left;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    align-content:space-between;
     color:#000000;
     background-color:#ffffff;
     border:solid;
-    border-color:#f2f2f2;
+    border-color:#F2F2F2;
     border-radius:90px;
+    padding:0px;
 }
 .button-title {
-    font-size:15px;
+    display:inline-block;
+    font-size:18px;
     font-weight:700;
+    margin:0px;
+    padding:10px 15px;
 }
 .button-title:hover {
     color:#0065FC;
@@ -131,32 +136,28 @@ form.location-search input[type=text] {
     background-color:#deebff;
     border-radius:90px;
     padding:15px;
-    margin:-3px 10px -3px -3px;
-    height:100%;
+    margin:-5px 5px -5px -5px;
 }
 .fa-child-reaching {
     color:#0065FC;
     background-color:#deebff;
     border-radius:90px;
     padding:15px;
-    margin:-3px 10px -3px -3px;
-    height:100%;
+    margin:-5px 5px -5px -5px;
 }
 .fa-heart {
     color:#0065FC;
     background-color:#deebff;
     border-radius:90px;
     padding:15px;
-    margin:-3px 10px -3px -3px;
-    height:100%;
+    margin:-5px 5px -5px -5px;
 }
 .fa-dog {
     color:#0065FC;
     background-color:#deebff;
     border-radius:90px;
     padding:15px;
-    margin:-3px 10px -3px -3px;
-    height:100%;
+    margin:-5px 5px -5px -5px;
 }
 #more-info-text {
     margin:10px 0px;
