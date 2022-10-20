@@ -11,14 +11,15 @@ a:link {
 h3 {
     color: #000000;
     font-size:22px;
+    margin-bottom:5px;
 }
 h5 {
-    line-height:0px;
-    font-size:14px;
+    font-size:15px;
+    margin:12px 0px 5px 0px;
 }
 p {
     font-size: 14px;
-    line-height:0px;
+    margin:5px 0px;
 }
 nav {
     display: flex;
@@ -95,14 +96,16 @@ form.location-search input[type=text] {
 }
 /*FILTER BUTTONS*/
 /*Why did my filter buttons stretch vertically when I added flex?*/
-/*.buttons-container {
+.buttons-container {
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
     gap: 30px;
-}*/
+    margin:20px 0px;
+}
 #filter-text {
     display:inline-block;
+    margin:14px 0px;
 }
 /*may want to rebuild with flex after looking at milestones*/
 .button {
@@ -162,7 +165,7 @@ form.location-search input[type=text] {
     display:inline-block;
     color:#0065FC;
     background-color:#ffffff;
-    padding:10px 10px;
+    padding:10px 9px;
     border:solid;
     border-color:#f2f2f2;
     border-radius:90px;
@@ -227,6 +230,14 @@ form.location-search input[type=text] {
 .fa-star {
     margin:-2px;
 }
+.sm-blue {
+    font-size:12px;
+    color:#0065FC;
+}
+.sm-gray {
+    font-size:12px;
+    color:#F2F2F2;
+}
 #show-more-text {
     margin:5% 2%;
     color:#000000;
@@ -283,14 +294,14 @@ form.location-search input[type=text] {
 /*MEDIA QUERY TEST*/
 
 /* TABLET */
-@media screen and (min-width=769px) and (max-width=992px) {
+@media (max-width:992px) {
     h3 {
         color: green;
     }
 }
 
 /* MOBILE */
-@media screen and (max-width=768px) {
+@media (max-width:768px) {
     h3 {
         color: blue;
     }
