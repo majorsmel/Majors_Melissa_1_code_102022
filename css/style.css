@@ -24,6 +24,8 @@ p {
     font-size: 14px;
     margin:5px 0px;
 }
+
+/*NAV*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -191,14 +193,14 @@ form.location-search input[type=text] {
 /*ACCOMMODATION TILES*/
 .accommodations-container {
     height:625px;
-    width:70%;
-    margin:0% 2% 0% 0%;
+    width:66%;
+    margin:0% 1% 0% 0%;
     background-color:#f2f2f2;
     border-radius:20px;
     padding:30px;
 }
 .marseille-title {
-    margin:20px;
+    margin:2%;
     text-align:left;
     display:inline-block;
 }
@@ -208,13 +210,13 @@ form.location-search input[type=text] {
     flex-direction:row;
     justify-content:space-around;
     align-content:center;
-    gap:30px;
 }
 .room-card {
     background-color:#ffffff;
-    width:260px;
+    width:250px;
     height:200px;
-    padding: 5px;
+    padding:0.5%;
+    margin:2% 0%;
     border-radius:20px;
     box-shadow:1px 8px 16px 1px rgba(0,0,0,0.1);
 }
@@ -245,14 +247,14 @@ form.location-search input[type=text] {
     color:#F2F2F2;
 }
 #show-more-text {
-    margin:5% 2%;
+    margin:2%;
     color:#000000;
 }
 
 /*MOST POPULAR TILES*/
 .most-popular-container {
     height:625px;
-    width:30%;
+    width:33%;
     margin:0% 0% 0% 2%;
     background-color:#f2f2f2;
     border-radius:20px;
@@ -268,9 +270,9 @@ form.location-search input[type=text] {
 }
 .room-card-popular {
     background-color:#ffffff;
-    width:340px;
+    width:350px;
     height:145px;
-    padding: 5px;
+    padding:1.2%;
     border-radius:20px;
     box-shadow:1px 8px 16px 1px rgba(0,0,0,0.1);
 }
@@ -296,6 +298,9 @@ form.location-search input[type=text] {
 .p-popular {
     padding:0px 0px 20px 0px;
 }
+
+/*ACTIVITY TILES*/
+
 
 /*MEDIA QUERY TEST*/
 
