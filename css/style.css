@@ -28,6 +28,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:-20px;
 }
 nav img {
     width: 100px;    
@@ -57,6 +58,10 @@ nav img {
 }
 .nav-links ul li:hover::after {
     width: 100%;
+}
+/*Is there a way to add the hover color to appear at the same time as the blue bar hover?*/
+.nav-link:hover {
+    color:#0065FC;
 }
 /*SEARCH BAR*/
 .search-bar-container {
