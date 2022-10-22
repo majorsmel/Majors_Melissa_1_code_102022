@@ -3,10 +3,14 @@
     font-family: "Raleway", sans-serif;
 }
 body {
-    padding: 2% 4%;
+    padding-top:2%;
 }
-a:link {
+a:any-link {
     text-decoration:none;
+    color:#000000;
+}
+a:hover {
+    color:#0065FC;
 }
 h3 {
     color: #000000;
@@ -27,6 +31,7 @@ p {
 
 /*NAV*/
 nav {
+    padding:0% 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,9 +70,16 @@ nav img {
 .nav-link:hover {
     color:#0065FC;
 }
+/*HEADER*/
+header {
+    padding:0% 3%;
+}
 /*SEARCH BAR*/
+.filter-container {
+    padding:0% 3%;
+}
 .search-bar-container {
-    padding:10px 0px;
+    padding:10px 0px; /*consider percentages here*/
 }
 .fa-location-dot {
     background-color: #f2f2f2;
@@ -181,7 +193,10 @@ form.location-search input[type=text] {
 #info-text {
     display:inline-block;
 }
-
+/*MAIN*/
+main {
+    padding:0% 3%;
+}
 /*ACCOMMODATIONS*/
 .accomodations-popular-container {
     margin:20px 0px;
@@ -349,8 +364,29 @@ form.location-search input[type=text] {
     border-top-right-radius: 20px;   
 }
 .activity-title {
-    padding:2% 5%;
+    padding:2% 0% 0% 5%;
 }
+
+/*FOOTER*/
+footer {
+    background-color:#F2F2F2;
+    padding:2% 3%;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.footer-containers {
+    padding:0% 20% 0% 0%;
+}
+.footer-links ul {
+    list-style-type:none;
+    padding:0;
+}
+.footer-links ul li {
+    padding:0% 0% 10% 0%;
+}
+
 /*MEDIA QUERY TEST*/
 
 /* TABLET */
