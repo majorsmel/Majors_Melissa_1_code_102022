@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif; /*Raleway isn't pulling in*/
+    font-family: "Raleway", sans-serif;
 }
 a:any-link {
     text-decoration:none;
@@ -10,7 +10,6 @@ a:hover {
     color:#0065FC;
 }
 h3 {
-    color: #000000;
     font-size:22px;
     margin-bottom:5px;
 }
@@ -47,10 +46,6 @@ nav img {
     padding: 50px 12px;
     position: relative;
 }
-.nav-links ul li a {
-    color: #000000;
-    text-decoration: none;
-}
 .nav-links ul li::after {
     content: "";
     position: absolute;
@@ -63,10 +58,8 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
-/*Is there a way to add the hover color to appear at the same time as the blue bar hover?*/
-.nav-link:hover {
-    color:#0065FC;
-}
+/*Is there a way to add the hover color to appear at the same time as the blue bar hover?
+
 /*HEADER*/
 header {
     padding:0% 3%;
