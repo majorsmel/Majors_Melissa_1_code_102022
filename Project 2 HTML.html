@@ -8,11 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Replaced the fontawesome cdn with a kit and icons began to show up. What's the story here?-->
     <script src="https://kit.fontawesome.com/0052b681fc.js" crossorigin="anonymous"></script>
+    <!--HAVEN'T BEEN ABLE TO FIND ICONS THAT MATCH THE MOCK-UP SITE THAT WORK WITH THIS CDN LINK.-->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">-->
     <title>Booki</title>
 
     <!--LINKS TO CSS STYLESHEETS & GOOGLE FONT-->
     <link href="css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="https://https://fonts.google.com/specimen/Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
     <link href="./css/style.css" type="text/css" rel="stylesheet">
 
 </head>
@@ -24,8 +26,8 @@
         <img src="./WD+P2+-+Booki+resources+EN/WD P2 - Booki resources EN/images/logo/Booki.png">
         <div class="nav-links">
             <ul>
-                <li><a class="nav-link" href="#">Accommodations</a></li>
-                <li><a class="nav-link" href="#">Activities</a></li>
+                <li><a class="nav-link" href="#marseille-accommodations-title">Accommodations</a></li>
+                <li><a class="nav-link" href="#marseille-title-activities">Activities</a></li>
             </ul>
         </div>
     </nav>
@@ -79,7 +81,7 @@
 
             <!--ACCOMMODATION TILES-->
             <div class="accommodations-container">
-                <h3 class="marseille-title">Accommodations in Marseille</h3>
+                <h3 id="marseille-accommodations-title">Accommodations in Marseille</h3>
                 <div class="room-container">
                     <div class="room-card">
                         <a href="#">
@@ -229,8 +231,8 @@
 
             <!--MOST POPULAR TILES-->
             <div class="most-popular-container">
-                <h3 class="marseille-title">Most Popular</h3>
-                <i class="fa-solid fa-star" style="float:right; margin:20px;"></i>
+                <h3 id="marseille-popular-title">Most Popular</h3>
+                <i class="fa-solid fa-star fa-lg most-popular-star" style="float:right; margin:20px;"></i>
                 <div class="most-popular-rooms-container">
                     <div class="room-card-popular">
                         <a href="#">

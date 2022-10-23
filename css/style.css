@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
-}
-body {
-    padding-top:2%;
+    font-family: "Raleway", sans-serif; /*Raleway isn't pulling in*/
 }
 a:any-link {
     text-decoration:none;
@@ -35,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:-20px;
+    margin-bottom:-2%;
 }
 nav img {
     width: 100px;    
@@ -212,12 +209,10 @@ main {
     margin:0% 1% 0% 0%;
     background-color:#f2f2f2;
     border-radius:20px;
-    padding:30px;
 }
-.marseille-title {
-    margin:2%;
+#marseille-accommodations-title {
+    padding:2% 0% 0% 4%;
     text-align:left;
-    display:inline-block;
 }
 .room-container {
     display:flex;
@@ -251,7 +246,7 @@ main {
     top:-10px;
 }
 .fa-star {
-    margin:-2px;
+    margin:0px -2px;
 }
 .sm-blue {
     font-size:12px;
@@ -263,7 +258,6 @@ main {
 }
 #show-more-text {
     margin:2%;
-    color:#000000;
 }
 
 /*MOST POPULAR TILES*/
@@ -273,19 +267,27 @@ main {
     margin:0% 0% 0% 2%;
     background-color:#f2f2f2;
     border-radius:20px;
-    padding: 30px;
 }
 .most-popular-rooms-container {
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
     justify-content:space-around;
-    align-content:center;
+    align-items:center;
     gap:30px;
+}
+#marseille-popular-title {
+    padding:4% 0% 4% 8%;
+    text-align:left;
+    display:inline-block;
+}
+.most-popular-star {
+    display:inline-block;
+    padding:6% 4% 0% 0%;
 }
 .room-card-popular {
     background-color:#ffffff;
-    width:350px;
+    width:400px;
     height:145px;
     padding:1.2%;
     border-radius:20px;
@@ -381,7 +383,7 @@ footer {
 }
 .footer-links ul {
     list-style-type:none;
-    padding:0;
+    padding:0%;
 }
 .footer-links ul li {
     padding:0% 0% 10% 0%;
