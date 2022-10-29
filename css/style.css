@@ -398,4 +398,36 @@ footer {
     h3 {
         color: blue;
     }
+
+    /*NAV*/
+nav {
+    flex-direction:column;
+    justify-content:space-between;
+    padding:5% 0%;
 }
+nav img {
+    width: 125px; 
+    margin:2% 0%;   
+}
+/*Figure out how to get hover links to display across entire width */
+/*.nav-links {
+    padding:0%;
+}*/
+.nav-links ul li {
+    padding:0px 50px;
+}
+.nav-links ul li::after {
+    top:35px;
+    width:100%;
+    height:4px;
+    background:#F2F2F2;
+}
+.nav-links ul li:hover::after {
+    background:#0065FC;
+}
+
+/*HEADER*/
+header {
+    padding:0% 5%;
+}
+
