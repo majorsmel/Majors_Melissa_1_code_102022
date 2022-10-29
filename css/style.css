@@ -134,6 +134,7 @@ form.location-search input[type=text] {
     border-color:#F2F2F2;
     border-radius:90px;
     padding:0px;
+    width:fit-content;
 }
 .button-title {
     display:inline-block;
@@ -453,80 +454,16 @@ header {
     position:relative;
     left:-30px;
 }
-.buttons-container {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    gap: 30px;
-    margin:20px 0px;
-}
 #filter-text {
-    display:inline-block;
-    margin:0px;
-    padding-top:10px;
+    display:block; /*Attempting to get "Filters" on its own row but flex buttons wrap to filter row*/
+    margin:0% 100% 0% 0%;
 }
-.button {
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    align-content:space-between;
-    color:#000000;
-    background-color:#ffffff;
-    border:solid;
-    border-color:#F2F2F2;
-    border-radius:90px;
-    padding:0px;
+.buttons-container {
+    flex-direction:column;
+    gap: 15px;
+    max-height:250px;
 }
-.button-title {
-    display:inline-block;
-    font-size:18px;
-    font-weight:700;
-    margin:0px;
-    padding:10px 15px;
-}
-.button-title:hover {
-    color:#0065FC;
-}
-.fa-money-bill-wave {
-    color:#0065FC;
-    background-color:#deebff;
-    border-radius:90px;
-    padding:15px;
-    margin:-5px 5px -5px -5px;
-}
-.fa-child-reaching {
-    color:#0065FC;
-    background-color:#deebff;
-    border-radius:90px;
-    padding:15px 17px;
-    margin:-5px 5px -5px -5px;
-}
-.fa-heart {
-    color:#0065FC;
-    background-color:#deebff;
-    border-radius:90px;
-    padding:15px;
-    margin:-5px 5px -5px -5px;
-}
-.fa-dog {
-    color:#0065FC;
-    background-color:#deebff;
-    border-radius:90px;
-    padding:15px;
-    margin:-5px 5px -5px -5px;
-}
-#more-info-text {
-    margin:10px 0px;
-}
-.fa-info {
-    display:inline-block;
-    color:#0065FC;
-    background-color:#ffffff;
-    padding:10px 9px;
-    border:solid;
-    border-color:#f2f2f2;
-    border-radius:90px;
-}
-#info-text {
-    display:inline-block;
+/*Need to figure out spacing for Romantic button wrap*/
+.button:nth-of-type(3) {
+    order:1;
 }
