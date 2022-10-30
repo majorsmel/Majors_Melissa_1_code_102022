@@ -445,7 +445,7 @@ header {
     padding:2% 5%;
 }
 /*SEARCH BAR*/
-/*.filter-container {
+.filter-container {
     padding:0% 5%;
 }
 .search-bar-container {
@@ -466,23 +466,20 @@ header {
     left:-30px;
 }
 #filter-text {
-    display:block; /*Attempting to get "Filters" on its own row but flex buttons wrap to filter row*/
-}*/
-/*.buttons-container {
-    flex-direction:column;
-    justify-content:flex-start;
-    align-content:flex-start;
-    justify-items:flex-start;
-    align-items:flex-start;
-    gap: 15px;
-    max-height:250px;
-}*/
-/*Need to figure out spacing for Romantic button wrap*/
-/*.button:nth-of-type(3) {
-    order:1;
+    display:block;
+    margin-bottom:3%;
+}
+.buttons-container {
+    display:block;
 }
 .icon-buttons {
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
-}*/
+    gap: 15px;
+    max-height:200px;
+}
+/*Need to figure out spacing for Romantic button wrap*/
+.button:nth-of-type(3) {
+    order:1;
+}
