@@ -518,5 +518,28 @@ and more info text. Set min width?*/
     .most-popular-rooms-container {
         gap:10px;
     }
-
+/*ACTIVITY TILES*/
+    .activity-tile-container {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+    .activity-card-small-container {
+        display:block;
+    }
+    .activity-card-medium {
+        background-color:#ffffff;
+        width:90%;
+        height:145px;
+    }
+    .activity-image-md {
+        height:145px;
+    }
+    .activity-card-small {
+        width:90%;
+        height:145px
+    }
+    .activity-image-sm {
+        height:145px;
+    }
 }
