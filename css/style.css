@@ -441,9 +441,9 @@ nav img {
     background:#0065FC;
 }
 /*HEADER*/
-/*header {
-    padding:0% 5%;
-}*/
+header {
+    padding:2% 5%;
+}
 /*SEARCH BAR*/
 /*.filter-container {
     padding:0% 5%;
