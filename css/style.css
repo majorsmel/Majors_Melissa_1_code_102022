@@ -58,7 +58,9 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
-/*Is there a way to add the hover color to appear at the same time as the blue bar hover?
+.nav-links ul li:hover a {
+    color:#0065FC;
+ }
 
 /*HEADER*/
 header {
@@ -122,6 +124,12 @@ form.location-search input[type=text] {
     display:inline-block;
     margin:0px;
     padding-top:1%;
+}
+.icon-buttons {
+    display:flex;
+    flex-direction:row;
+    align-content:space-between;
+    gap:30px;
 }
 .button {
     display:flex;
@@ -402,21 +410,26 @@ footer {
     }
 
 /*NAV*/
-/*nav {
-    flex-direction:column;
-    justify-content:space-between;
-    padding:5% 0%;
+nav {
+    padding:0%;
+    display:block;
 }
 nav img {
-    width: 125px; 
-    margin:2% 0%;   
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
+ 
 /*Figure out how to get hover links to display across entire width */
-/*.nav-links {
-    padding:0%;
-}*/
+.nav-links {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0%;
+}
 .nav-links ul li {
-    padding:0px 50px;
+    text-align:center;
+    padding:0px 10px;
 }
 .nav-links ul li::after {
     top:35px;
@@ -428,11 +441,11 @@ nav img {
     background:#0065FC;
 }
 /*HEADER*/
-header {
+/*header {
     padding:0% 5%;
-}
+}*/
 /*SEARCH BAR*/
-.filter-container {
+/*.filter-container {
     padding:0% 5%;
 }
 .search-bar-container {
@@ -454,8 +467,8 @@ header {
 }
 #filter-text {
     display:block; /*Attempting to get "Filters" on its own row but flex buttons wrap to filter row*/
-}
-.buttons-container {
+}*/
+/*.buttons-container {
     flex-direction:column;
     justify-content:flex-start;
     align-content:flex-start;
@@ -463,9 +476,13 @@ header {
     align-items:flex-start;
     gap: 15px;
     max-height:250px;
-}
+}*/
 /*Need to figure out spacing for Romantic button wrap*/
-.button:nth-of-type(3) {
+/*.button:nth-of-type(3) {
     order:1;
 }
-*/
+.icon-buttons {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}*/
