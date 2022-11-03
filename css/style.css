@@ -472,16 +472,11 @@ footer {
         flex-direction:column;
         flex-wrap:wrap;
         gap: 15px;
-        max-height:200px;
     }
 /*Need to figure out spacing for Romantic button wrap*/
     .button:nth-of-type(3) {
         order:1;
     }
-
-/*Figure out how to wrap overflowing items like Romantic filter button
-and more info text. Set min width?*/
-
 /*MAIN*/
     main {
         padding:0%;
@@ -541,5 +536,16 @@ and more info text. Set min width?*/
     }
     .activity-image-sm {
         height:145px;
+    }
+/*FOOTER*/
+    footer {
+        padding:2% 5%;
+        flex-direction:column;
+    }
+    .footer-containers {
+        padding:0% 5%;
+    }
+    .footer-links ul li {
+        padding:0% 0% 6% 0%;
     }
 }
