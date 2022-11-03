@@ -195,7 +195,8 @@ form.location-search input[type=text] {
     border-radius:90px;
 }
 #info-text {
-    display:inline-block;
+    display:inline;
+    overflow-wrap:normal;
 }
 /*MAIN*/
 main {
@@ -473,7 +474,6 @@ footer {
         flex-wrap:wrap;
         gap: 15px;
     }
-/*Need to figure out spacing for Romantic button wrap*/
     .button:nth-of-type(3) {
         order:1;
     }
@@ -487,6 +487,9 @@ footer {
         display:flex;
         flex-direction:column;
         justify-content:space-between;
+    }
+    #marseille-accommodations-title {
+        padding:4% 0% 4% 8%;
     }
 /*ACCOMMODATION TILES*/
     .accommodations-container {
@@ -518,14 +521,24 @@ footer {
         display:flex;
         flex-direction:column;
         justify-content:space-between;
+        padding:0%;
+        margin:0%;
+        width:90%;
+    }
+    #marseille-title-activities {
+        padding:4% 0% 4% 8%;
     }
     .activity-card-small-container {
-        display:block;
+        justify-content:space-between;
+        gap:60px;
+
     }
+    /*Figure out why tiles don't force this container to expand.  Need to specify height % in flex from medium tile container?*/
     .activity-card-medium {
         background-color:#ffffff;
         width:90%;
         height:145px;
+        margin:8% 0%;
     }
     .activity-image-md {
         height:145px;
