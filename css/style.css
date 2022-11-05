@@ -141,15 +141,10 @@ form.location-search input[type=text] {
     border:solid;
     border-color:#F2F2F2;
     border-radius:90px;
-    padding:0px;
     width:fit-content;
-}
-.button-title {
-    display:inline-block;
     font-size:18px;
     font-weight:700;
-    margin:0px;
-    padding:10px 15px;
+    padding:3px 10px 3px 0px;
 }
 .button-title:hover {
     color:#0065FC;
