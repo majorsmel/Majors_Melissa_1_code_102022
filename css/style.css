@@ -532,6 +532,7 @@ footer {
         padding:0% 0% 8% 0%;
 
     }
+    /*losing box shadow in mobile*/
     .activity-card-medium {
         background-color:#ffffff;
         width:90%;
@@ -541,6 +542,7 @@ footer {
     .activity-image-md {
         height:145px;
     }
+    /*losing box shadow in mobile*/
     .activity-card-small {
         width:100%;
         height:145px;
