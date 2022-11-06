@@ -200,7 +200,7 @@ main {
     padding:0% 3%;
 }
 /*ACCOMMODATIONS*/
-.accomodations-popular-container {
+.accommodations-popular-container {
     margin:1% 0%;
     display:flex;
     flex-direction:row;
@@ -401,15 +401,15 @@ footer {
     main {
         padding:0%;
     }
-    /*ACCOMODATIONS*/
-    .accomodations-popular-container {
+    /*ACCOMMODATIONS*/
+    .accommodations-popular-container {
         margin:1% 0%;
         display:flex;
         flex-direction:column;
         justify-content:space-between;
     }
     #marseille-accommodations-title {
-        padding:4% 0% 4% 8%;
+        padding: 2% 0% 0% 3%;
     }
     /*ACCOMMODATION TILES*/
     .accommodations-container {
@@ -424,8 +424,9 @@ footer {
     .room-card {
         width:45%;
     }
+    /*DIFFERS FROM MOBILE*/
     #show-more-text {
-        margin:8% 0% 8% 4%;
+        margin:4%;
     }
 /*MOST POPULAR TILES*/
     .most-popular-container {
@@ -451,6 +452,42 @@ footer {
     .room-card-popular {
         width:32%;
         padding:0.5%;
+    }
+/*ACTIVITY TILES*/
+    /*DIFFERS FROM MOBILE*/
+    .activity-tile-container {
+        width:100%;
+        gap:20px;
+        margin:0% 0% 7% 0%;
+        padding:0% 4%;
+    }
+    #marseille-title-activities {
+        /*DIFFERS FROM MOBILE*/
+        padding:0% 0% 2% 5%;
+    }
+    .activity-card-small-container {
+        justify-content:space-between;
+        gap:20px;
+        /*DIFFERS FROM MOBILE*/
+        padding:0%;
+        width:50%;
+    }
+    .activity-card-medium {
+        /*DIFFERS FROM MOBILE*/
+        width:45%;
+        height:400px;
+        margin:0%;
+    }
+    .activity-image-md {
+        /*DIFFERS FROM MOBILE*/
+        height:355px;
+    }
+    .activity-card-small {
+        width:100%;
+        height:190px;
+    }
+    .activity-image-sm {
+        height:145px;
     }
 }
 
@@ -544,7 +581,7 @@ footer {
         padding:0%;
     }
 /*ACCOMMODATIONS*/
-    .accomodations-popular-container {
+    .accommodations-popular-container {
         margin:1% 0%;
         display:flex;
         flex-direction:column;
@@ -607,18 +644,19 @@ footer {
         justify-content:space-between;
         gap:20px;
         padding:0%;
+        width:100%;
     }
     .activity-card-medium {
         background-color:#ffffff;
         width:90%;
         height:190px;
-        margin:0%;
+        margin:0% 5%;
     }
     .activity-image-md {
         height:145px;
     }
     .activity-card-small {
-        width:100%;
+        width:90%;
         height:190px;
     }
     .activity-image-sm {
