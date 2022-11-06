@@ -396,7 +396,62 @@ footer {
 
 /* TABLET */
 @media (max-width:992px) {
-   
+    /*NAV, HEADER, SEARCH BAR - same as desktop*/
+    /*MAIN*/
+    main {
+        padding:0%;
+    }
+    /*ACCOMODATIONS*/
+    .accomodations-popular-container {
+        margin:1% 0%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+    #marseille-accommodations-title {
+        padding:4% 0% 4% 8%;
+    }
+    /*ACCOMMODATION TILES*/
+    .accommodations-container {
+        width:100%;
+        margin:0%;
+        padding:0% 2%;
+        background-color:#ffffff;
+        border-radius:0px;
+        order:1;
+    }
+    /*DIFFERS FROM MOBILE*/
+    .room-card {
+        width:45%;
+    }
+    #show-more-text {
+        margin:8% 0% 8% 4%;
+    }
+/*MOST POPULAR TILES*/
+    .most-popular-container {
+        width:100%;
+        margin:0%;
+        /*DIFFERS FROM MOBILE*/
+        padding:1% 2% 2% 2%;
+        border-radius:0px;
+    }
+    /*DIFFERS FROM MOBILE*/
+    #marseille-popular-title {
+        padding:2%;
+        margin:0%;
+    }
+    /*DIFFERS FROM MOBILE*/
+    .most-popular-star {
+        padding:0%;
+    }
+    .most-popular-rooms-container {
+        flex-direction:row;
+        gap:0px;
+    }
+    .room-card-popular {
+        width:32%;
+        padding:0.5%;
+    }
 }
 
 /* MOBILE */
@@ -520,8 +575,20 @@ footer {
         padding:0% 2% 10% 2%;
         border-radius:0px;
     }
+    #marseille-popular-title {
+        padding:4% 0% 4% 8%;
+        margin-top:5%;
+    }
+    .most-popular-star {
+        padding:6% 4% 0% 0%;
+    }
     .most-popular-rooms-container {
+        flex-direction:column;
         gap:10px;
+    }
+    .room-card-popular {
+        width:90%;
+        padding:1.2%;
     }
 /*ACTIVITY TILES*/
     .activity-tile-container {
