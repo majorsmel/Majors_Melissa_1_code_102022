@@ -326,7 +326,7 @@ main {
 .activity-tile-container {
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
+    flex-wrap:none;
     justify-content:space-between;
     align-content:center;
     gap:30px;
@@ -337,10 +337,11 @@ main {
     flex-wrap:wrap;
     justify-content:space-around;
     align-content:center;
+    width:25%;
 }
 .activity-card-medium {
     background-color:#ffffff;
-    width:22%;
+    width:25%;
     height:100%;
     margin:2% 0%;
     border-radius:20px;
@@ -355,7 +356,7 @@ main {
 }
 .activity-card-small {
     background-color:#ffffff;
-    width:315px;
+    width:100%;
     height:40%;
     margin:0%;
     border-radius:20px;
@@ -456,6 +457,7 @@ footer {
 /*ACTIVITY TILES*/
     /*DIFFERS FROM MOBILE*/
     .activity-tile-container {
+        flex-wrap:wrap;
         width:100%;
         gap:20px;
         margin:0% 0% 7% 0%;
