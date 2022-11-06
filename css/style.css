@@ -24,7 +24,6 @@ p {
     font-size: 14px;
     margin:5px 0px;
 }
-
 /*NAV*/
 nav {
     padding:0% 3%;
@@ -61,7 +60,6 @@ nav img {
 .nav-links ul li:hover a {
     color:#0065FC;
  }
-
 /*HEADER*/
 header {
     padding:0% 3%;
@@ -83,7 +81,6 @@ header {
     border-top-left-radius:15px;
     border-bottom-left-radius:15px;
 }
-/*Format search bar text*/
 form.location-search input[type=text] {
     padding:10px;
     font-size: 17px;
@@ -206,7 +203,6 @@ main {
     flex-direction:row;
     justify-content:space-between;
 }
-
 /*ACCOMMODATION TILES*/
 .accommodations-container {
     width:66%;
@@ -224,10 +220,11 @@ main {
     flex-direction:row;
     justify-content:space-around;
     align-content:center;
+    padding:0% 2%;
 }
 .room-card {
     background-color:#ffffff;
-    width:250px;
+    width:30%;
     height:20%;
     padding:0.5%;
     margin:2% 0%;
@@ -263,7 +260,6 @@ main {
 #show-more-text {
     margin:2% 0% 4% 3%;
 }
-
 /*MOST POPULAR TILES*/
 .most-popular-container {
     width:33%;
@@ -318,7 +314,6 @@ main {
 .p-popular {
     padding:0% 0% 5% 0%;
 }
-
 /*ACTIVITY TILES*/
 .activities-container {
     margin:4% 0%;
@@ -372,7 +367,6 @@ main {
 .activity-title {
     padding:0% 0% 2% 5%;
 }
-
 /*FOOTER*/
 footer {
     background-color:#F2F2F2;
@@ -393,11 +387,9 @@ footer {
     padding:0% 0% 10% 0%;
 }
 
-/*MEDIA QUERY TEST*/
-
 /* TABLET */
 @media (max-width:992px) {
-    /*NAV, HEADER, SEARCH BAR - same as desktop*/
+    /*NAV, HEADER, SEARCH BAR, FOOTER - same as desktop*/
     /*MAIN*/
     main {
         padding:0%;
@@ -405,9 +397,7 @@ footer {
     /*ACCOMMODATIONS*/
     .accommodations-popular-container {
         margin:1% 0%;
-        display:flex;
         flex-direction:column;
-        justify-content:space-between;
     }
     #marseille-accommodations-title {
         padding: 2% 0% 0% 3%;
@@ -421,28 +411,23 @@ footer {
         border-radius:0px;
         order:1;
     }
-    /*DIFFERS FROM MOBILE*/
     .room-card {
         width:45%;
     }
-    /*DIFFERS FROM MOBILE*/
     #show-more-text {
         margin:4%;
     }
-/*MOST POPULAR TILES*/
+    /*MOST POPULAR TILES*/
     .most-popular-container {
         width:100%;
         margin:0%;
-        /*DIFFERS FROM MOBILE*/
         padding:1% 2% 2% 2%;
         border-radius:0px;
     }
-    /*DIFFERS FROM MOBILE*/
     #marseille-popular-title {
         padding:2%;
         margin:0%;
     }
-    /*DIFFERS FROM MOBILE*/
     .most-popular-star {
         padding:0%;
     }
@@ -454,8 +439,7 @@ footer {
         width:32%;
         padding:0.5%;
     }
-/*ACTIVITY TILES*/
-    /*DIFFERS FROM MOBILE*/
+    /*ACTIVITY TILES*/
     .activity-tile-container {
         flex-wrap:wrap;
         width:100%;
@@ -464,29 +448,25 @@ footer {
         padding:0% 4%;
     }
     #marseille-title-activities {
-        /*DIFFERS FROM MOBILE*/
         padding:0% 0% 2% 5%;
     }
     .activity-card-small-container {
         justify-content:space-between;
         gap:20px;
-        /*DIFFERS FROM MOBILE*/
         padding:0%;
         width:50%;
     }
     .activity-card-medium {
-        /*DIFFERS FROM MOBILE*/
         width:45%;
-        height:400px;
+        height:100%;
         margin:0%;
     }
     .activity-image-md {
-        /*DIFFERS FROM MOBILE*/
         height:355px;
     }
     .activity-card-small {
         width:100%;
-        height:190px;
+        height:47%;
     }
     .activity-image-sm {
         height:145px;
@@ -495,8 +475,8 @@ footer {
 
 /* MOBILE */
 @media (max-width:768px) {
-
-/*NAV*/
+    /*MAIN - same as Tablet*/
+    /*NAV*/
     nav {
         padding:0%;
         display:block;
@@ -534,11 +514,11 @@ footer {
     .nav-links ul li:hover::after {
         background:#0065FC;
     }
-/*HEADER*/
+    /*HEADER*/
     header {
         padding:2% 5%;
     }
-/*SEARCH BAR*/
+    /*SEARCH BAR*/
     .filter-container {
         padding:0% 5%;
     }
@@ -569,20 +549,12 @@ footer {
     .icon-buttons {
         display:flex;
         flex-direction:column;
-        flex-wrap:wrap;
         gap: 15px;
-    }
-    .button:nth-of-type(3) {
-        order:1;
     }
     #more-info-text {
         margin:5% 0%;
     }
-/*MAIN*/
-    main {
-        padding:0%;
-    }
-/*ACCOMMODATIONS*/
+    /*ACCOMMODATIONS*/
     .accommodations-popular-container {
         margin:1% 0%;
         display:flex;
@@ -592,27 +564,16 @@ footer {
     #marseille-accommodations-title {
         padding:4% 0% 4% 8%;
     }
-/*ACCOMMODATION TILES*/
-    .accommodations-container {
-        width:100%;
-        margin:0%;
-        padding:0% 2%;
-        background-color:#ffffff;
-        border-radius:0px;
-        order:1;
-    }
+    /*ACCOMMODATION TILES*/
     .room-card {
         width:90%;
     }
     #show-more-text {
         margin:8% 0% 8% 4%;
     }
-/*MOST POPULAR TILES*/
+    /*MOST POPULAR TILES*/
     .most-popular-container {
-        width:100%;
-        margin:0%;
         padding:0% 2% 10% 2%;
-        border-radius:0px;
     }
     #marseille-popular-title {
         padding:4% 0% 4% 8%;
@@ -629,29 +590,22 @@ footer {
         width:90%;
         padding:1.2%;
     }
-/*ACTIVITY TILES*/
+    /*ACTIVITY TILES*/
     .activity-tile-container {
-        display:flex;
         flex-direction:column;
-        justify-content:space-between;
-        width:100%;
-        gap:20px;
         margin:0% 0% 15% 0%;
-        padding:0% 2%;
+        padding:0% 3%;
     }
     #marseille-title-activities {
         padding:2% 0% 2% 8%;
     }
     .activity-card-small-container {
-        justify-content:space-between;
-        gap:20px;
-        padding:0%;
         width:100%;
     }
     .activity-card-medium {
         background-color:#ffffff;
         width:90%;
-        height:190px;
+        height:16%;
         margin:0% 5%;
     }
     .activity-image-md {
@@ -659,12 +613,12 @@ footer {
     }
     .activity-card-small {
         width:90%;
-        height:190px;
+        height:16%;
     }
     .activity-image-sm {
         height:145px;
     }
-/*FOOTER*/
+    /*FOOTER*/
     footer {
         padding:2% 5%;
         flex-direction:column;
